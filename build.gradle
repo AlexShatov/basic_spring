@@ -1,0 +1,19 @@
+
+
+plugins {
+	id 'java'
+    id 'application'
+}
+
+repositories {
+   	mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-core:5.2.0.RELEASE'
+    compile 'org.springframework:spring-beans:5.2.0.RELEASE'
+	compile 'org.springframework:spring-context:5.2.0.RELEASE'
+}
+
+mainClassName = "ru.basicspring.main.Main"
+
